@@ -9,9 +9,9 @@ function App() {
         <header>
           <nav>
             <ul>
-              <li><NavLink>Home</NavLink></li>
-              <li><NavLink>Criar chamado</NavLink></li>
-              <li><NavLink>Buscar Chamado</NavLink></li>
+              <li><NavLink to="/">Home</NavLink></li>
+              <li><NavLink to="/novo">Criar chamado</NavLink></li>
+              <li><NavLink to="/chamados">Buscar Chamado</NavLink></li>
             </ul>
           </nav>
         </header>
