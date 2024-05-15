@@ -1,8 +1,9 @@
 :root{
   --white: #ffffff;
   --black: #000000;
-  --shadow: rgba(0, 0, 0, .14);
   --grey: #d0d0d0;
+  --shadow: rgba(0, 0, 0, .14);
+  --shadow-hover: rgba(0, 0, 0, .5);
 
   --blue-200: #c9d8ff;
   --blue-300: #8cb3ff;
@@ -60,7 +61,6 @@
 .App nav ul  {
   display: flex;
   padding: 0;
-  gap: 1rem;
   list-style: none;
   justify-content: center;
 }
@@ -70,6 +70,17 @@
   padding: 1rem;
   color: var(--black); 
 }
+
+.App nav ul li a:hover{
+  background: var(--blue-400);
+  box-shadow: 0 2px 5px var(--shadow-hover);
+}
+
+.App nav ul li a.active{
+  background: var(--blue-500);
+  color: var(--silver);
+}
+
 
 .Header {
   display: flex;
