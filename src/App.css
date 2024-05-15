@@ -1,4 +1,80 @@
-.App {
-  text-align: center;
+:root{
+  --white: #ffffff;
+  --black: #000000;
+  --shadow: rgba(0, 0, 0, .14);
+  --grey: #d0d0d0;
+
+  --blue-200: #c9d8ff;
+  --blue-300: #8cb3ff;
+  --blue-400: #64a1ff;
+  --blue-500: #1e90ff;
+
+  --silver: #c0c0c0;
 }
 
+.App{
+  background: var(--grey);
+  height: 100vh;
+}
+
+.App main{
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  color: #212529;
+}
+
+@media (min-width: 576px) {
+  .App main {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .App main {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .App main {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .App main {
+    max-width: 1140px;
+  }
+}
+
+.App nav {
+  padding: 0;
+  background-color: var(--blue-200);
+  box-shadow: 0 2px 5px var(--shadow);
+  display: flex;
+  justify-content: center;
+
+}
+
+.App nav ul  {
+  display: flex;
+  padding: 0;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.App nav ul li a{
+  text-decoration: none;
+  padding: 1rem;
+  color: var(--black); 
+}
+
+.Header {
+  display: flex;
+  background: var(--blue-200);
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
