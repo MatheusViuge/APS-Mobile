@@ -67,17 +67,18 @@
 .App nav ul li a{
   text-decoration: none;
   padding: 1rem;
-  color: var(--black); 
+  color: var(--blue-500); 
 }
 
 .App nav ul li a:hover{
   background: var(--blue-400);
+  color: var(--blue-200);
   box-shadow: 0 2px 5px var(--shadow-hover);
 }
 
 .App nav ul li a.active{
   background: var(--blue-500);
-  color: var(--silver);
+  color: var(--white);
 }
 
 
