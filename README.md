@@ -16,7 +16,7 @@ Funcionalidades:
  + Uma lista de serviços cadastrados é exibida na interface do usuário.
  - Cada serviço na lista é exibido com seu nome e descrição.
  + Os usuários podem visualizar todos os serviços cadastrados em um único local.
-- ### 3. Edição de Serviços:
+- ### 3. Edição de Serviços:   (Matheus Viuge)
  + Os usuários têm a capacidade de editar as informações de um serviço existente.
  - Ao clicar no botão "Editar" ao lado de um serviço na lista, os campos de entrada são preenchidos com
 as informações desse serviço.
